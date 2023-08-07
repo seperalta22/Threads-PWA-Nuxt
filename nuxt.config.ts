@@ -3,10 +3,10 @@ export default defineNuxtConfig({
   pages: true,
   devtools: { enabled: true },
   modules: [
-    "nuxt-icons",
+    "nuxt-icon",
     "@nuxtjs/tailwindcss",
     "@pinia/nuxt",
-    "@nuxtjs/supabase",
+    // "@nuxtjs/supabase",
     "@vite-pwa/nuxt",
   ],
   runtimeConfig: {
