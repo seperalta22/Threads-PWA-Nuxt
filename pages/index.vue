@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+import MainLayout from "@/layouts/MainLayout.vue";
+</script>
 
 <template>
-  <div>
+  <MainLayout>
     <h1>Index</h1>
-  </div>
+  </MainLayout>
 </template>
