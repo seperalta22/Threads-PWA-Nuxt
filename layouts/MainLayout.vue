@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+import { useUserStore } from "@/stores/user";
+const userStore = useUserStore();
+</script>
 
 <template>
   <div id="MainLayout" class="h-screen">
